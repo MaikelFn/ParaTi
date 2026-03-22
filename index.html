@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flores Amarillas Para Ti</title>
+    <meta
+      name="description"
+      content="Una página especial de flores amarillas para alguien muy importante."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sky-glow sky-glow-left" aria-hidden="true"></div>
+    <div class="sky-glow sky-glow-right" aria-hidden="true"></div>
+
+    <header class="hero">
+      <p class="date-pill">Para el amor de mi vida</p>
+      <h1>Mi niña, eres mi lugar favorito en todo el universo</h1>
+      <p class="lead">
+        Cada día contigo es más bonito que el anterior. Esta flor amarilla la
+        hice para recordarte que contigo siempre florezco.
+      </p>
+      <button id="growSunflower" class="cta">Mi niña, presiona para crear nuestro jardin</button>
+    </header>
+
+    <main>
+      <section class="garden-panel reveal" style="--d: 0.2s" aria-label="Animacion de girasol">
+        <p id="sunflowerMessage" class="sunflower-message">
+          Toca el boton y mira como nacen flores amarillas para ti, Mi niña.
+        </p>
+
+        <div class="sunflower-stage" aria-hidden="true">
+          <div id="sunflowerGarden" class="sunflower-garden"></div>
+        </div>
+      </section>
+
+      <section class="promise reveal" style="--d: 0.35s">
+        <h2>Mi promesa</h2>
+        <p>
+          Que nunca te falten motivos para sonreír. Que cuando el mundo canse,
+          yo sea tu abrazo seguro. Que cada dia recuerdes cuánto
+          te amo.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Hecho con amor y un montón de esfuerzo.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
